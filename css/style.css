@@ -1,0 +1,100 @@
+body{
+	font-family: メイリオ;
+	margin: 0;
+	width: 100%;
+	background: url("../img/back.png");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	color: white;
+}
+
+.wrapper{
+	width: 75%;
+	margin: 100px auto;
+	height: auto;
+	background-color: #184d0d;
+}
+
+nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	justify-content: center;
+}
+
+li{
+	margin: 10px;
+}
+
+li a{
+	text-decoration: none;
+	background-color: #3a2924;
+	font-size: 40px;
+	padding: 0px 5px;
+}
+
+li a:hover{
+	background-color: #800000;
+}
+
+a:link{
+	color: white;
+}
+
+a:visited{
+	color: white;
+}
+
+.profile_box{
+	display: flex;
+	width: 100%;
+}
+
+.img{
+	width: 20%;
+	height: 50%;
+	background-color: green;
+	padding: 10px;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+.content_title{
+	font-size: 50px;
+	margin: 0 0 15px;
+	color: #e0e697;
+}
+
+p{
+	margin: 0;
+	font-size: 20px;
+}
+
+.profile{
+	width: 80%;
+	text-align: center;
+	padding: 10px;
+}
+
+.text_container{
+	width: 70%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.section_padding{
+	padding: 10px;
+}
+
+.logo{
+	margin-top: 20px;
+	height: 5%;
+	width: 5%;
+}
+
+.page_link{
+	font-size: 30px; 
+}
